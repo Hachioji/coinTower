@@ -43,14 +43,16 @@ public class Shooter : MonoBehaviour
     // 更新前処理
     void Start()
     {
-
+       
     }
 
     // 更新処理
     void Update()
     {
+        Debug.Log("a");
         if(Input.GetKeyDown(KeyCode.Space))
         {
+            Debug.Log("b");
             Instantiate(coin,transform.position,Quaternion.identity);
         }
     }
