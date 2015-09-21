@@ -49,7 +49,7 @@ public class Test : MonoBehaviour
     // 更新処理
     void Update()
     {
-
+        //タンバリン
     }
 	#endregion
 }
