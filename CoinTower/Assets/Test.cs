@@ -19,7 +19,8 @@ public class Test : MonoBehaviour
 {
 	#region 変数
 
-
+    [SerializeField]
+    private bool frag;
 
     #endregion
 
@@ -42,7 +43,7 @@ public class Test : MonoBehaviour
     // 更新前処理
     void Start()
     {
-
+        Debug.Assert(frag,"frag is true!");
     }
 
     // 更新処理
